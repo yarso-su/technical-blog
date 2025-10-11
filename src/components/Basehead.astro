@@ -1,7 +1,7 @@
 ---
 import '@/styles/global.css'
 import type { ImageMetadata } from 'astro'
-import coverImage from '@/assets/images/works.jpg'
+import coverImage from '@/assets/images/cover.jpg'
 import { getImage } from 'astro:assets'
 
 export interface Props {
@@ -26,28 +26,25 @@ const cover = await getImage({
   format: 'webp'
 })
 
-const canonical =
-  Astro.url.pathname === '/'
-    ? 'https://es.yarso.dev'
-    : new URL(Astro.url.pathname, Astro.site).href
+const canonical = new URL(Astro.url.pathname, Astro.site).href
 ---
 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-<meta name="apple-mobile-web-app-title" content="Works" />
+<meta name="apple-mobile-web-app-title" content="Blog. Yarso" />
 
 <link rel="manifest" href="/site.webmanifest" />
-
-<meta name="generator" content={Astro.generator} />
 
 <title>{title}</title>
 <meta name="title" content={title} />
