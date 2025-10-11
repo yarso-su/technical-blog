@@ -67,8 +67,8 @@ const pageNumbers = getPageNumbers(page.currentPage, page.lastPage)
 ---
 
 <Blog
-  title={`Blog (${page.currentPage}). Te contamos cómo funciona el software`}
-  description={`Explora el blog de Works con artículos de software, noticias de tecnología y consejos técnicos para optimizar tus proyectos y mantenerte actualizado ${page.currentPage}/${page.lastPage}.`}
+  title={`Artículos sobre conceptos de tecnología (${page.currentPage})`}
+  description={`Si eres de esas personas que siempre se han preguntado cómo funcionan las cosas, tal vez puedas encontrar aquí un par de respuestas (${page.currentPage}).`}
   main
 >
   <section class="mt-4 mb-6 lg:mb-12 mx-auto 2xl:w-[60%] w-[90%]">
@@ -150,7 +150,7 @@ const pageNumbers = getPageNumbers(page.currentPage, page.lastPage)
                     <h3 class="line-clamp-2 font-semibold lg:line-clamp-none leading-[1.2] lg:text-xl w-full text-left lg:font-semibold tracking-tight">
                       {post.title}
                     </h3>
-                    <p class="mt-1 opacity-85 line-clamp-1 text-sm lg:text-base ">
+                    <p class="mt-1 opacity-85 line-clamp-1 sm:line-clamp-2 text-sm lg:text-base ">
                       {post.description}
                     </p>
                   </div>

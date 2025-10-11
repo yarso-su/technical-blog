@@ -64,8 +64,8 @@ const canonical =
 <meta property="og:image" content={new URL(cover.src, Astro.site)} />
 
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:site" content="@yarsoDev" />
-<meta property="twitter:creator" content="@yarsoDev" />
+<meta property="twitter:site" content="@yeremi_rrios" />
+<meta property="twitter:creator" content="@yeremi_rrios" />
 <meta property="twitter:url" content={Astro.url} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
@@ -74,48 +74,24 @@ const canonical =
 {post === undefined && (
   <script is:inline type="application/ld+json" set:html={JSON.stringify({
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Works by Yarso",
-  "url": "https://es.yarso.dev",
-  "description": "Agencia de software. Desarrollo de aplicaciones web, móviles y de escritorio",
-  "founder": {
-    "@type": "Person",
-    "name": "Yarso"
-  },
-  "foundingLocation": {
-    "@type": "Place",
-    "name": "Manzanillo, Colima, México"
-  },
-  "areaServed": "Worldwide",
-  "serviceArea": {
-    "@type": "Place",
-    "name": "Global - Remote Services"
-  },
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "contactType": "customer service",
-    "availableLanguage": ["es", "en"]
-  },
-  "makesOffer": [
+  "@graph": [
     {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": "Desarrollo de Software",
-        "description": "Desarrollo de aplicaciones web, móviles y de escritorio",
-        "serviceType": "Software Development"
-      },
-      "areaServed": "Worldwide"
+      "@type": "Blog",
+      "@id": "https://es.yarso.dev",
+      "name": "Blog. Yarso",
+      "url": "https://es.yarso.dev",
+      "description": "Blog personal sobre desarrollo de software y tecnología",
+      "author": {
+        "@id": "https://yarso.dev"
+      }
     },
     {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": "Administración de Software",
-        "description": "Mantenimiento y administración de sistemas de software",
-        "serviceType": "Software Administration"
-      },
-      "areaServed": "Worldwide"
+      "@type": "Person",
+      "@id": "https://yarso.dev",
+      "name": "Yarso",
+      "url": "https://yarso.dev",
+      "jobTitle": "Software Developer",
+      "knowsLanguage": ["es", "en"]
     }
   ]
 })}>
@@ -136,11 +112,6 @@ const canonical =
       "author": {
         "@type": "Person", 
         "name": "Yarso"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Works by Yarso",
-        "url": "https://es.yarso.dev"
       }
     })}>
     </script>
