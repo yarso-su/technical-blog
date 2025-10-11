@@ -9,7 +9,7 @@ modified: 2025-10-11
 minutesToRead: 12
 ---
 
-Déjanos explicarte con un poquito más de detalle qué es realmente **el software más importante** de cualquier dispositivo que uses.
+Déjame explicarte con un poquito más de detalle qué es realmente **el software más importante** de cualquier dispositivo que uses.
 
 ---
 
@@ -460,7 +460,7 @@ Si este artículo te ayudó a entender mejor qué es un sistema operativo y cuá
 - [¿Inteligencia artificial?](/la-inteligencia-artificial/)
 - [¿Mi contraseña "messi96" no es segura?](/las-contrasenas/)
 
-También puedes seguirnos en nuestras redes sociales para más contenido sobre tecnología explicada de manera simple:
+También puedes seguirme en mis redes sociales para más contenido sobre tecnología explicada de manera simple:
 
 - [@yeremi_rrios](https://x.com/yeremi_rrios) en X
 - [@yeremi.rrios](https://www.instagram.com/yeremi.rrios/) en Instagram

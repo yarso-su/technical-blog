@@ -315,7 +315,7 @@ Si este artículo te ayudó a entender mejor qué son los contenedores, también
 - [¿Qué es el SEO?](/que-es-el-seo/)
 - [¿Qué es ChatGPT?](/que-es-chat-gpt/)
 
-También puedes seguirnos en nuestras redes sociales para más contenido sobre tecnología explicada de manera simple:
+También puedes seguirme en mis redes sociales para más contenido sobre tecnología explicada de manera simple:
 
 - [@yeremi_rrios](https://x.com/yeremi_rrios) en X
 - [@yeremi.rrios](https://www.instagram.com/yeremi.rrios/) en Instagram

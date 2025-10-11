@@ -521,7 +521,7 @@ Si este artículo te ayudó a entender mejor dónde y cómo vive el software, te
 - [¿Software? ¿Solo apps?](/software/)
 - [¿Qué es Github?](/que-es-github/)
 
-También puedes seguirnos en nuestras redes sociales para más contenido sobre desarrollo, infraestructura y tecnología:
+También puedes seguirme en mis redes sociales para más contenido sobre desarrollo, infraestructura y tecnología:
 
 - [@yeremi_rrios](https://x.com/yeremi_rrios) en X
 - [@yeremi.rrios](https://www.instagram.com/yeremi.rrios/) en Instagram y en Threads

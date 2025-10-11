@@ -604,7 +604,7 @@ Después de analizar todo, la respuesta es clara para la mayoría de casos: **S�
 ### Considera alternativas solo si...
 
 ⚠️ **Manejas volúmenes masivos** (+$1M USD mensual) donde cada 0.1% de comisión impacta significativamente
-⚠️ **Tu mercado es 100% local** y hay procesadores mexicanos con tarifas significantly mejores
+⚠️ **Tu mercado es 100% local** y hay procesadores mexicanos con tarifas significantivamente mejores
 ⚠️ **Necesitas features ultra-específicos** que solo proveedores de nicho ofrecen
 
 ### El veredicto final
@@ -638,9 +638,9 @@ Stripe te ayuda a llegar ahí más rápido que cualquier alternativa. Y cuando l
 - [¿El hábitat del software?](/habitat-del-software/)
 - [¿Software? ¿Solo apps?](/software/)
 
-También puedes seguirnos para más contenido sobre desarrollo y fintech:
+También puedes seguirme para más contenido sobre desarrollo y fintech:
 
 - [@yeremi_rrios](https://x.com/yeremi_rrios) en X
 - [@yeremi.rrios](https://www.instagram.com/yeremi.rrios/) en Instagram y en Threads
 
-*¿Te ha gustado este artículo? Compártelo con ese emprendedor que sigue pensando en "hacer su propio PayPal" desde cero. Hazle el favor de la realidad.*
+*¿Te ha gustado este artículo? Compártelo con esa persona que cree que puede hacer su propio PayPal. Hazle el favor de la realidad.*

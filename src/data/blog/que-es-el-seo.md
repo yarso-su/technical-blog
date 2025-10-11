@@ -263,7 +263,7 @@ El SEO es lo que le da visibilidad a tu negocio en internet. No es magia ni un t
 - [¿Qué es Stripe?](/que-es-stripe/)
 - [¿Dominio? ¿Por qué mi página se llama como un mueble?](/que-es-un-dominio/)
 
-También puedes seguirnos en nuestras redes sociales para más contenido sobre desarrollo web y marketing digital:
+También puedes seguirme en mis redes sociales para más contenido sobre desarrollo web y marketing digital:
 
 - [@yeremi_rrios](https://x.com/yeremi_rrios) en X
 - [@yeremi.rrios](https://www.instagram.com/yeremi.rrios/) en Instagram y en Threads

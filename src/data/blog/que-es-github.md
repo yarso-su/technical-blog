@@ -377,7 +377,7 @@ Si te ha ayudado esta guía, recuerda que tenemos más contenido que podría int
 - [¿El hábitat del software?](/habitat-del-software/)
 - [¿Software? ¿Solo apps?](/software/)
 
-También puedes seguirnos en nuestras redes sociales para más contenido sobre desarrollo y tecnología:
+También puedes seguirme en mis redes sociales para más contenido sobre desarrollo y tecnología:
 
 - [@yeremi_rrios](https://x.com/yeremi_rrios) en X
 - [@yeremi.rrios](https://www.instagram.com/yeremi.rrios/) en Instagram y en Threads

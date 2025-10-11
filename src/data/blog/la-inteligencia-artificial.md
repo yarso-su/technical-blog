@@ -464,7 +464,7 @@ Entonces… ¿nos van a dominar los robots o no?
 
 No se trata de temer a la IA, sino de **entenderla, adoptarla responsablemente, y usarla para potenciar nuestras capacidades humanas únicas**.
 
-Y si un día Skynet aparece de verdad… bueno, al menos tendrás un bot súper avanzado que te explique exactamente lo que está pasando. Con suerte, en un tono amigable y con ejemplos prácticos.
+Y si un día Skynet aparece de verdad… bueno, al menos tendrás un chat que te explique exactamente lo que está pasando. Con suerte, en un tono amigable y con ejemplos prácticos.
 
 ---
 
@@ -478,7 +478,7 @@ Y si un día Skynet aparece de verdad… bueno, al menos tendrás un bot súper 
 - [¿Cómo se sube una página web?](/como-se-sube-una-pagina-web/)
 - [La Web. Terreno Infinito para la Imaginación](/la-web/)
 
-También puedes seguirnos para contenido actualizado sobre tecnología:
+También puedes seguirme para contenido actualizado sobre tecnología:
 
 - [@yeremi_rrios](https://x.com/yeremi_rrios) en X
 - [@yeremi.rrios](https://www.instagram.com/yeremi.rrios/) en Instagram y en Threads

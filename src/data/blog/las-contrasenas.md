@@ -81,7 +81,7 @@ Sí, en serio. Hoy en día existen **gestores de contraseñas** que se encargan 
 
 Una contraseña segura debe cumplir estos requisitos mínimos:
 
-- **Longitud:** Al menos 12-16 caracteres (mientras más larga, mejor)
+- **Longitud:** Al menos 12-16 caracteres
 - **Complejidad:** Combinación de mayúsculas, minúsculas, números y símbolos especiales
 - **Aleatoriedad:** Sin patrones predecibles ni información personal
 - **Exclusividad:** Una contraseña única para cada cuenta

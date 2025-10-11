@@ -330,7 +330,7 @@ Si te ha gustado esta guía, recuerda que tenemos otros artículos que podrían 
 - [¿Software? ¿Solo apps?](/software/)
 - [¿Qué es Github?](/que-es-github/)
 
-También puedes seguirnos en nuestras redes sociales para más contenido sobre desarrollo web y tecnología:
+También puedes seguirme en mis redes sociales para más contenido sobre desarrollo web y tecnología:
 
 - [@yeremi_rrios](https://x.com/yeremi_rrios) en X
 - [@yeremi.rrios](https://www.instagram.com/yeremi.rrios/) en Instagram y en Threads

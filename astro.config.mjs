@@ -27,7 +27,10 @@ export default defineConfig({
   integrations: [sitemap()],
 
   vite: {
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
+    server: {
+      allowedHosts: ['.yarso.dev']
+    }
   },
 
   markdown: {

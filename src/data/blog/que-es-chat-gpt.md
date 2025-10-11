@@ -369,7 +369,7 @@ La pregunta no es si deberías usar ChatGPT, sino **cómo puedes integrarlo de m
 - [¿Dominio? ¿Por qué mi página se llama como un mueble?](/que-es-un-dominio/)
 - [¿Cómo se sube una página web?](/como-se-sube-una-pagina-web/)
 
-También puedes seguirnos para más contenido sobre tecnología y desarrollo:
+También puedes seguirme para más contenido sobre tecnología y desarrollo:
 
 - [@yeremi_rrios](https://x.com/yeremi_rrios) en X
 - [@yeremi.rrios](https://www.instagram.com/yeremi.rrios/) en Instagram y en Threads

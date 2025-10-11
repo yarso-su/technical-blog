@@ -400,7 +400,7 @@ Y lo mejor: puedes empezar **gratis**, **ahora mismo**, y ver los beneficios en 
 
 ---
 
-*¿Ya usas Cloudflare? ¿Tienes alguna configuración que quieras compartir? ¿Preguntas sobre cómo empezar? ¡Compártelas en nuestras redes sociales! Y si este artículo te convenció de probar Cloudflare (o confirmó que ya estás en el camino correcto), compártelo con ese amigo que sigue pagando por certificados SSL en 2025.*
+*Y si este artículo te convenció de probar Cloudflare (o confirmó que ya estás en el camino correcto), compártelo con ese amigo que sigue pagando por certificados SSL en 2025.*
 
 ---
 
@@ -414,7 +414,7 @@ Si este artículo te ayudó a entender mejor Cloudflare, también te recomendamo
 - [¿Qué es un Sistema operativo?](/que-es-un-sistema-operativo/)
 - [¿Qué es AWS?](/que-es-aws/)
 
-También puedes seguirnos en nuestras redes sociales para más contenido sobre tecnología explicada de manera simple:
+También puedes seguirme en mis redes sociales para más contenido sobre tecnología explicada de manera simple:
 
 - [@yeremi_rrios](https://x.com/yeremi_rrios) en X
 - [@yeremi.rrios](https://www.instagram.com/yeremi.rrios/) en Instagram y en Threads

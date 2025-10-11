@@ -136,7 +136,7 @@ Si te ha gustado, recuerda que tenemos otros que podrían serte útiles:
 - [¿Mi contraseña "messi96" no es segura?](/las-contrasenas/)
 - [¿Qué es Stripe?](/que-es-stripe/)
 
-También puedes seguirnos en nuestras redes sociales:
+También puedes seguirme en mis redes sociales:
 
 - [@yeremi_rrios](https://x.com/yeremi_rrios) en X
 - [@yeremi.rrios](https://www.instagram.com/yeremi.rrios/) en Instagram y en Threads

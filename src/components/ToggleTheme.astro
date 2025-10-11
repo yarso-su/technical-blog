@@ -5,11 +5,8 @@ import Button from './Button.astro'
 ---
 
 <Button id="theme-toggle" aria-label="Alternar tema">
-  <Sun name="sun-icon" class="size-4 transition-opacity duration-200" />
-  <Moon
-    name="moon-icon"
-    class="size-4 hidden transition-opacity duration-200"
-  />
+  <Sun name="sun-icon" class="size-3 sm:size-4" />
+  <Moon name="moon-icon" class="size-3 sm:size-4 hidden" />
 </Button>
 
 <script is:inline>
@@ -118,17 +115,3 @@ import Button from './Button.astro'
     )
   })()
 </script>
-
-<style>
-  :root {
-    transition: color-scheme 0.2s ease;
-  }
-
-  #theme-toggle {
-    will-change: transform;
-  }
-
-  #theme-toggle svg {
-    will-change: opacity;
-  }
-</style>

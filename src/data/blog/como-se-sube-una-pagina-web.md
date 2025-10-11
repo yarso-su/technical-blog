@@ -424,7 +424,7 @@ Si te ha ayudado este artículo, recuerda que tenemos más contenido que podría
 - [¿Software? ¿Solo apps?](/software/)
 - [¿Qué es Github?](/que-es-github/)
 
-También puedes seguirnos en nuestras redes sociales para más tips de desarrollo y deployment:
+También puedes seguirme en mis redes sociales para más tips de desarrollo y deployment:
 
 - [@yeremi_rrios](https://x.com/yeremi_rrios) en X
 - [@yeremi.rrios](https://www.instagram.com/yeremi.rrios/) en Instagram y en Threads

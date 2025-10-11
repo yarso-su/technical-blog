@@ -61,7 +61,7 @@ Ya tienes todo lo necesario para poder instalar este maravilloso sistema.
 
 **📋 Esta es una guía completamente basada en la oficial proporcionada por [ArchLinux](https://wiki.archlinux.org/title/Installation_guide)**
 
-**⚠️ Disclaimer Importante: Aunque no se requiere ser un experto para seguir esta guía, no nos hacemos responsables de las consecuencias que puedan surgir de seguir estas instrucciones. Haz backups. Siempre. En serio.**
+**⚠️ Disclaimer Importante: Aunque no se requiere ser un experto para seguir esta guía, no me hago responsable de las consecuencias que puedan surgir de seguir estas instrucciones. Haz backups. Siempre. En serio.**
 
 ---
 
@@ -519,7 +519,7 @@ Una vez que reinicies y veas la pantalla de login, puedes hacer login con el usu
 
 ---
 
-*¿Te sirvió esta guía? ¿Lograste instalar Arch sin llorar? ¿Tienes alguna anécdota épica de tu instalación? ¡Compartenos en nuestras redes sociales! Y si esta guía te salvó de un formatting desastroso, compártela con esos amigos que aún creen que Ubuntu es "muy avanzado".*
+*¿Te sirvió esta guía? ¿Lograste instalar Arch sin llorar? Si esta guía te salvó de un formatting desastroso, compártela con esos amigos que aún creen que Ubuntu es "muy avanzado".*
 
 ---
 
@@ -533,7 +533,7 @@ Si este artículo te ayudó a entender mejor ArchLinux, también te recomendamos
 - [¿Qué es AWS?](/que-es-aws/)
 - [¿Qué es el SEO?](/que-es-el-seo/)
 
-También puedes seguirnos en nuestras redes sociales para más contenido sobre tecnología explicada de manera simple:
+También puedes seguirme en mis redes sociales para más contenido sobre tecnología explicada de manera simple:
 
 - [@yeremi_rrios](https://x.com/yeremi_rrios) en X
 - [@yeremi.rrios](https://www.instagram.com/yeremi.rrios/) en Instagram y en Threads
