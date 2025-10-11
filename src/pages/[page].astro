@@ -1,34 +1,49 @@
 ---
 import Blog from '@/layouts/Blog.astro'
+import type { GetStaticPaths, Page } from 'astro'
 import { Image } from 'astro:assets'
 import { getCollection } from 'astro:content'
 
-const images = import.meta.glob<{ default: ImageMetadata }>(
-  '/src/assets/images/*.{jpeg,jpg,png,gif,webp}'
-)
+export const getStaticPaths: GetStaticPaths = async ({ paginate }) => {
+  const images = import.meta.glob<{ default: ImageMetadata }>(
+    '/src/assets/images/*.{jpeg,jpg,png,gif,webp}'
+  )
+  const rawPosts = await getCollection('blog')
+  const posts = await Promise.all(
+    rawPosts.map(async post => {
+      const imagePath = `/src/assets/images/${post.data.img}`
+      const image = await images[imagePath]()
 
-const rawPosts = await getCollection('blog')
-const initialPosts = rawPosts
-  .sort((a, b) => b.data.published.getTime() - a.data.published.getTime())
-  .slice(0, 6)
+      return {
+        id: post.id,
+        title: post.data.title,
+        description: post.data.description,
+        image: image.default,
+        createdAt: post.data.published
+      }
+    })
+  ).then(posts =>
+    posts.sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime())
+  )
 
-const posts = await Promise.all(
-  initialPosts.map(async post => {
-    const imagePath = `/src/assets/images/${post.data.img}`
-    const image = await images[imagePath]()
+  const paginatedPosts = paginate(posts, { pageSize: 6 }).filter(
+    page => page.params.page !== '1'
+  )
 
-    return {
-      id: post.id,
-      title: post.data.title,
-      description: post.data.description,
-      image: image.default,
-      createdAt: post.data.published
-    }
-  })
-)
+  return paginatedPosts
+}
 
-const lastPage = Math.ceil(rawPosts.length / 6)
-const currentPage = 1
+interface Props {
+  page: Page<{
+    id: string
+    title: string
+    description: string
+    image: string
+    createdAt: string
+  }>
+}
+
+const { page } = Astro.props
 
 function getPageNumbers(currentPage: number, lastPage: number) {
   const pages = []
@@ -48,20 +63,24 @@ function getPageNumbers(currentPage: number, lastPage: number) {
   return pages
 }
 
-const pageNumbers = getPageNumbers(currentPage, lastPage)
+const pageNumbers = getPageNumbers(page.currentPage, page.lastPage)
 ---
 
 <Blog
-  title="Blog. Te contamos cómo funciona el software"
-  description="Explora el blog de Works con artículos de software, noticias de tecnología y consejos técnicos para optimizar tus proyectos y mantenerte actualizado."
+  title={`Blog (${page.currentPage}). Te contamos cómo funciona el software`}
+  description={`Explora el blog de Works con artículos de software, noticias de tecnología y consejos técnicos para optimizar tus proyectos y mantenerte actualizado ${page.currentPage}/${page.lastPage}.`}
   main
 >
   <section class="mt-4 mb-6 lg:mb-12 mx-auto 2xl:w-[60%] w-[90%]">
     <h1 class="block">
       <p
-        class="leading-[1.5] text-lg md:text-2xl font-semibold tracking-tight text-contrast"
+        class="leading-[1.5] text-lg lg:text-2xl font-semibold tracking-tight text-contrast flex items-start gap-1"
       >
-        Blog
+        Blog <span
+          class="opacity-80 font-semibold text-sm lg:text-base text-contrast"
+        >
+          {page.currentPage}
+        </span>
       </p>
       <p
         class="text-black dark:text-white leading-[1.1] text-2xl lg:text-3xl font-semibold tracking-tight"
@@ -93,6 +112,9 @@ const pageNumbers = getPageNumbers(currentPage, lastPage)
         class="leading-[1.1] text-xl lg:text-2xl font-semibold tracking-tight"
       >
         Nuestros artículos de software y tecnología
+        <span class="text-sm lg:text-base font-semibold opacity-80">
+          ({page.currentPage}/{page.lastPage})
+        </span>
       </h2>
       <p class="mt-4 text-xl hidden md:block">
         Aquí encontrarás lecturas pensadas para ti. ¿Qué es esto? ¿Cómo funciona
@@ -105,7 +127,7 @@ const pageNumbers = getPageNumbers(currentPage, lastPage)
       </p>
       <ul class="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-5">
         {
-          posts.map(post => (
+          page.data.map(post => (
             <li>
               <a href={`/${post.id}/`}>
                 <div class="grid grid-cols-[90px_1fr] lg:grid-cols-[120px_1fr] gap-2 items-center hover:scale-[102%] transition-transform duration-350">
@@ -151,12 +173,12 @@ const pageNumbers = getPageNumbers(currentPage, lastPage)
             )
           }
 
-          {currentPage > 3 && <span class="px-2 text-gray-500">...</span>}
+          {page.currentPage > 3 && <span class="px-2 text-gray-500">...</span>}
 
           <!-- Páginas alrededor de la actual -->
           {
             pageNumbers.map(pageNum =>
-              pageNum === currentPage ? (
+              pageNum === page.currentPage ? (
                 <span
                   class="px-4 py-2 bg-black/5 dark:bg-white/5 rounded-xs font-semibold"
                   aria-current="page"
@@ -183,18 +205,18 @@ const pageNumbers = getPageNumbers(currentPage, lastPage)
 
           <!-- Última página -->
           {
-            currentPage < lastPage - 2 && (
+            page.currentPage < page.lastPage - 2 && (
               <span class="px-2 text-gray-500">...</span>
             )
           }
 
           {
-            !pageNumbers.some(pageNum => pageNum === lastPage) && (
+            !pageNumbers.some(pageNum => pageNum === page.lastPage) && (
               <a
-                href={`/${lastPage}/`}
+                href={`/${page.lastPage}/`}
                 class="px-4 py-2 rounded-xs hover:bg-black/5 dark:hover:bg-white/5 transition-colors duration-150"
               >
-                {lastPage}
+                {page.lastPage}
               </a>
             )
           }

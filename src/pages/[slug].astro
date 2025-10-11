@@ -1,0 +1,117 @@
+---
+import Blog from '@/layouts/Blog.astro'
+import X from '@lucide/astro/icons/x'
+import { Image } from 'astro:assets'
+import { getCollection, render } from 'astro:content'
+import { format } from '@formkit/tempo'
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog')
+  return posts.map(post => ({
+    params: { slug: post.id },
+    props: { post }
+  }))
+}
+
+const { post } = Astro.props
+const { data } = post
+
+const { Content } = await render(post)
+
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/images/*.{jpeg,jpg,png,gif,webp}'
+)
+const imagePath = `/src/assets/images/${post.data.img}`
+const image = await images[imagePath]()
+
+const publishedText = format(data.published, 'YYYY-MM-DD')
+const modifiedText = format(data.modified, 'YYYY-MM-DD')
+---
+
+<Blog
+  title={data.metaTitle}
+  description={data.description}
+  image={image.default}
+  post={{
+    title: data.title,
+    published: publishedText,
+    modified: modifiedText
+  }}
+>
+  <section
+    class="mt-4 mb-4 lg:my-12 mx-auto 2xl:w-[40%] w-[90%] grid grid-cols-1 gap-4 items-center"
+  >
+    <div>
+      <div class="flex justify-between items-center mb-1 lg:mb-2">
+        <div class="flex items-center gap-2 text-xs sm:text-base">
+          <time
+            class="text-contrast border-r-[1px] pr-2"
+            datetime={publishedText}
+            >{
+              format({
+                date: data.published,
+                format: 'medium',
+                locale: 'es',
+                tz: 'UTC'
+              })
+            }</time
+          >
+          <p>
+            {data.minutesToRead} minutos de lectura
+          </p>
+        </div>
+
+        <script is:inline>
+          const goBack = () => {
+            if (window.history.length > 1) {
+              window.history.back()
+            } else {
+              window.location.replace('/blog/')
+            }
+          }
+        </script>
+        <button
+          onclick="goBack()"
+          aria-label="Volver al blog"
+          class="transition-colors duration-200 rounded-xs hover:bg-black/5 dark:hover:bg-white/5"
+        >
+          <X class="size-4 box-content p-1" />
+          <span class="sr-only">Volver al blog</span>
+        </button>
+      </div>
+      <div
+        class="grid grid-cols-[1fr_2fr] gap-4 lg:grid-cols-[220px_1fr] items-center"
+      >
+        <Image
+          class="border-[1px] w-full"
+          src={image.default}
+          width={350}
+          height={400}
+          widths={[300, 350, 500]}
+          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 300px, 350px"
+          format="webp"
+          style={`view-transition-name: ${post.id};`}
+          alt={data.title}
+        />
+        <div class="lg:flex lg:flex-col">
+          <h1
+            class="leading-[1.1] text-2xl md:text-3xl font-semibold tracking-tight"
+          >
+            {data.title}
+          </h1>
+          <div class="hidden md:block mt-2">
+            <p>{data.description}</p>
+            <p class="mt-2">{data.complement}</p>
+          </div>
+        </div>
+      </div>
+      <p class="md:hidden sm:text-base text-sm mt-4">{data.description}</p>
+      <p class="md:hidden pb-2 sm:text-base text-sm mt-2">{data.complement}</p>
+    </div>
+  </section>
+  <section class="bg-secondary border-t-[1px]">
+    <article id="post" class="py-8 lg:py-16 mx-auto 2xl:w-[40%] w-[90%]">
+      <Content />
+    </article>
+  </section>
+</Blog>
