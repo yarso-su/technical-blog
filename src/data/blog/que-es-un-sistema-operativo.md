@@ -5,7 +5,7 @@ description: 'Sistemas operativos: de esos términos que escapan de la burbuja y
 complement: "Android, iOS, Windows, Linux... Vale, tienes la idea general, pero ¿realmente sabes qué es? ¿Por qué existe? ¿Y por qué no puedes instalar las apps de iPhone en un Android?"
 img: "monitor.jpg"
 published: 2025-09-16
-modified: 2025-09-16
+modified: 2025-10-11
 minutesToRead: 12
 ---
 
@@ -454,11 +454,11 @@ Elegir el sistema operativo correcto es como elegir dónde vivir - afecta tu vid
 
 Si este artículo te ayudó a entender mejor qué es un sistema operativo y cuál es mejor para ti, también te recomendamos:
 
-- [¿Qué es AWS?](/blog/que-es-aws/)
-- [¿Qué es el SEO?](/blog/que-es-el-seo/)
-- [¿Qué es ChatGPT?](/blog/que-es-chat-gpt/)
-- [¿Inteligencia artificial?](/blog/la-inteligencia-artificial/)
-- [¿Mi contraseña "messi96" no es segura?](/blog/las-contrasenas/)
+- [¿Qué es AWS?](/que-es-aws/)
+- [¿Qué es el SEO?](/que-es-el-seo/)
+- [¿Qué es ChatGPT?](/que-es-chat-gpt/)
+- [¿Inteligencia artificial?](/la-inteligencia-artificial/)
+- [¿Mi contraseña "messi96" no es segura?](/las-contrasenas/)
 
 También puedes seguirnos en nuestras redes sociales para más contenido sobre tecnología explicada de manera simple:
 

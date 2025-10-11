@@ -5,7 +5,7 @@ description: '¿Te han mencionado GitHub y te quedaste con cara de "¿qué cosa?
 complement: "Todo empezó con un tipo llamado Linus Torvalds. Sí, ese mismo: el creador de Linux."
 img: "github.jpg"
 published: 2025-07-16
-modified: 2025-10-01
+modified: 2025-10-11
 minutesToRead: 10
 ---
 
@@ -369,33 +369,13 @@ Es la diferencia entre tener un producto de software profesional y confiable, ve
 
 ---
 
-## ¿Necesitas ayuda configurando GitHub para tu proyecto?
-
-En [Works](https://yarso.dev) no solo desarrollamos software, también nos encargamos de configurar y gestionar toda la infraestructura de desarrollo, incluyendo GitHub.
-
-**Te ayudamos con:**
-- ✅ **Configuración inicial** de repositorios y permisos
-- ✅ **Organización de workflows** y procesos de desarrollo
-- ✅ **Automatización** de testing y deployment
-- ✅ **Capacitación** para tu equipo interno
-- ✅ **Migración** desde otras plataformas
-- ✅ **Documentación** completa de tu proyecto
-
-**Para que tengas visibilidad total y control sobre el desarrollo de tu software.**
-
-**[Contáctanos para una consultoría gratuita →](https://yarso.dev)**
-
----
-
 ## ¿Te resultó útil este artículo?
 
 Si te ha ayudado esta guía, recuerda que tenemos más contenido que podría interesarte:
 
-- [La Web. Terreno Infinito para la Imaginación](/blog/la-web/)
-- [¿El hábitat del software?](/blog/habitat-del-software/)
-- [¿Software? ¿Solo apps?](/blog/software/)
-- [Acerca de nosotros](/blog/works-platform/)
-- [Lanzamiento de Works, nuestra forma de hacer las cosas](/blog/works/)
+- [La Web. Terreno Infinito para la Imaginación](/la-web/)
+- [¿El hábitat del software?](/habitat-del-software/)
+- [¿Software? ¿Solo apps?](/software/)
 
 También puedes seguirnos en nuestras redes sociales para más contenido sobre desarrollo y tecnología:
 

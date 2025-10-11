@@ -5,7 +5,7 @@ description: "Llevas semanas (¿meses?) trabajando en tu aplicación. Se ve boni
 complement: "Pero llega el temido momento de la verdad: hay que ponerla en internet para que el mundo la vea."
 img: rocket.jpg
 published: 2025-07-20
-modified: 2025-10-01
+modified: 2025-10-11
 minutesToRead: 9
 ---
 
@@ -415,34 +415,14 @@ Vamos paso a paso. Ya hiciste la parte difícil (crear algo útil). Ahora solo f
 
 ---
 
-## ¿Necesitas ayuda con tu deployment?
-
-En [Works](https://yarso.dev) nos especializamos en hacer que el proceso de deployment sea **simple, confiable y escalable**. 
-
-Nos encargamos de todo el proceso técnico:
-
-- ✅ **Configuración completa** de hosting y dominio
-- ✅ **CI/CD automatizado** para deployments sin estrés
-- ✅ **Monitoreo 24/7** y alertas proactivas
-- ✅ **Optimización de performance** y SEO
-- ✅ **Backups automáticos** y planes de recuperación
-- ✅ **Escalado automático** conforme crece tu tráfico
-
-**Para que tú te enfoques en lo que realmente importa: hacer crecer tu negocio.**
-
-**[Contáctanos para una consultoría gratuita →](https://yarso.dev)**
-
----
-
 ## ¿Te resultó útil esta guía?
 
 Si te ha ayudado este artículo, recuerda que tenemos más contenido que podría interesarte:
 
-- [La Web. Terreno Infinito para la Imaginación](/blog/la-web/)
-- [¿El hábitat del software?](/blog/habitat-del-software/)
-- [¿Software? ¿Solo apps?](/blog/software/)
-- [¿Qué es Github?](/blog/que-es-github/)
-- [Acerca de nosotros](/blog/works-platform/)
+- [La Web. Terreno Infinito para la Imaginación](/la-web/)
+- [¿El hábitat del software?](/habitat-del-software/)
+- [¿Software? ¿Solo apps?](/software/)
+- [¿Qué es Github?](/que-es-github/)
 
 También puedes seguirnos en nuestras redes sociales para más tips de desarrollo y deployment:
 

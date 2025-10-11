@@ -5,7 +5,7 @@ description: '¿Alguna vez te has preguntado por qué algunas webs cargan a la v
 complement: "La respuesta probablemente tenga tres sílabas y un color muy específico: Cloud-fla-re 🟠."
 img: "cloudflare.jpg"
 published: 2025-09-29
-modified: 2025-09-29
+modified: 2025-10-11
 minutesToRead: 13
 ---
 
@@ -107,7 +107,7 @@ Y todo esto sin necesidad de instalar Google Analytics o herramientas de tercero
 
 #### 7. **Reglas de Redirección: El Director de Tránsito**
 
-¿Necesitas redirigir `/blog/articulo-viejo` a `/articulos/nuevo-articulo`? ¿Quieres forzar HTTPS? ¿Necesitas agregar headers de seguridad?
+¿Necesitas redirigir `/articulo-viejo` a `/articulos/nuevo-articulo`? ¿Quieres forzar HTTPS? ¿Necesitas agregar headers de seguridad?
 
 Las Page Rules y Transform Rules de Cloudflare son **extremadamente configurables** y poderosas. Puedes hacer redirecciones complejas sin tocar una línea de código en tu servidor.
 
@@ -408,11 +408,11 @@ Y lo mejor: puedes empezar **gratis**, **ahora mismo**, y ver los beneficios en 
 
 Si este artículo te ayudó a entender mejor Cloudflare, también te recomendamos:
 
-- [¿Cómo Instalar Arch Linux?](/blog/como-instalar-archlinux/)
-- [¿Qué es Docker?](/blog/que-es-docker/)
-- [¿Qué es Linux?](/blog/que-es-linux/)
-- [¿Qué es un Sistema operativo?](/blog/que-es-un-sistema-operativo/)
-- [¿Qué es AWS?](/blog/que-es-aws/)
+- [¿Cómo Instalar Arch Linux?](/como-instalar-archlinux/)
+- [¿Qué es Docker?](/que-es-docker/)
+- [¿Qué es Linux?](/que-es-linux/)
+- [¿Qué es un Sistema operativo?](/que-es-un-sistema-operativo/)
+- [¿Qué es AWS?](/que-es-aws/)
 
 También puedes seguirnos en nuestras redes sociales para más contenido sobre tecnología explicada de manera simple:
 

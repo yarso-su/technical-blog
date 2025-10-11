@@ -5,7 +5,7 @@ description: "Las transacciones digitales ya son parte de nuestro día. Compras 
 complement: "Y sin darte cuenta, todo eso pasa gracias a plataformas de pago trabajando en segundo plano, procesando millones de transacciones cada segundo sin que notes siquiera que están ahí."
 img: "stripe.jpg"
 published: 2025-07-28
-modified: 2025-10-01
+modified: 2025-10-11
 minutesToRead: 11
 ---
 
@@ -626,25 +626,17 @@ Como decimos los del software: "Premature optimization is the root of all evil."
 
 Stripe te ayuda a llegar ahí más rápido que cualquier alternativa. Y cuando llegues, ya tendrás el problema de más dinero del que esperabas. Buen problema para tener.
 
-**Hasta entonces, ¡a cobrar con estilo!** 💳✨
-
----
-
-¿Necesitas ayuda implementando Stripe en tu proyecto?
-
-En [Works](https://yarso.dev) tenemos experiencia integrando Stripe en todo tipo de aplicaciones: desde MVPs simples hasta plataformas de marketplace complejas. Te ayudamos a implementar la solución correcta para tu caso específico.
-
 ---
 
 ## Más recursos sobre tecnología y desarrollo
 
 ¿Te ha resultado útil esta guía? Si quieres seguir aprendiendo sobre las herramientas que potencian los negocios digitales:
 
-- [¿Dominio? ¿Por qué mi página se llama como un mueble?](/blog/que-es-un-dominio/)
-- [¿Cómo se sube una página web?](/blog/como-se-sube-una-pagina-web/)
-- [La Web. Terreno Infinito para la Imaginación](/blog/la-web/)
-- [¿El hábitat del software?](/blog/habitat-del-software/)
-- [¿Software? ¿Solo apps?](/blog/software/)
+- [¿Dominio? ¿Por qué mi página se llama como un mueble?](/que-es-un-dominio/)
+- [¿Cómo se sube una página web?](/como-se-sube-una-pagina-web/)
+- [La Web. Terreno Infinito para la Imaginación](/la-web/)
+- [¿El hábitat del software?](/habitat-del-software/)
+- [¿Software? ¿Solo apps?](/software/)
 
 También puedes seguirnos para más contenido sobre desarrollo y fintech:
 

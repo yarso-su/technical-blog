@@ -5,7 +5,7 @@ description: '¿Más siglas? Sí. Pero estas te suenan de algo. AWS significa Am
 complement: "Pues sí, al parecer el gigante tecnológico está en todos lados. Y te haremos un spoiler: probablemente muchos de los servicios que uses estén funcionando en los servidores de esta gente. Netflix, Spotify, Airbnb... la lista es interminable."
 img: "aws.jpg"
 published: 2025-08-20
-modified: 2025-10-01
+modified: 2025-10-11
 minutesToRead: 5
 ---
 
@@ -15,7 +15,7 @@ Tal como lo dijimos anteriormente, Amazon Web Services es un conjunto de servici
 
 No exageramos cuando decimos que no hay aplicación que no se pueda montar (desplegar, para los puristas) en los "cacharros" de esta gente.
 
-Te explico: ¿recuerdas lo que hablamos en ["¿El hábitat del software?"](/blog/habitat-del-software/)? Bueno, si no es así te invitamos a que le eches un vistazo, pero si no te apetece te lo contamos en pocas palabras.
+Te explico: ¿recuerdas lo que hablamos en ["¿El hábitat del software?"](/habitat-del-software/)? Bueno, si no es así te invitamos a que le eches un vistazo, pero si no te apetece te lo contamos en pocas palabras.
 
 Las aplicaciones y sus datos viven en computadoras bastante similares a las que usa la gente en su día a día. Sin embargo, para cada tipo de aplicación se requiere adaptar y configurar el entorno de una manera muy precisa.
 
@@ -130,11 +130,11 @@ Al final del día, AWS es una herramienta. Y como cualquier herramienta, su valo
 
 Si te ha gustado, recuerda que tenemos otros que podrían serte útiles:
 
-- [¿Qué es el SEO?](/blog/que-es-el-seo/)
-- [¿Qué es ChatGPT?](/blog/que-es-chat-gpt/)
-- [¿Inteligencia artificial?](/blog/la-inteligencia-artificial/)
-- [¿Mi contraseña "messi96" no es segura?](/blog/las-contrasenas/)
-- [¿Qué es Stripe?](/blog/que-es-stripe/)
+- [¿Qué es el SEO?](/que-es-el-seo/)
+- [¿Qué es ChatGPT?](/que-es-chat-gpt/)
+- [¿Inteligencia artificial?](/la-inteligencia-artificial/)
+- [¿Mi contraseña "messi96" no es segura?](/las-contrasenas/)
+- [¿Qué es Stripe?](/que-es-stripe/)
 
 También puedes seguirnos en nuestras redes sociales:
 

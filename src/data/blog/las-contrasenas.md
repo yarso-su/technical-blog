@@ -5,7 +5,7 @@ description: "Las contraseñas existen casi desde que internet es internet. La i
 complement: "Y así nació esta pesadilla de letras, números y símbolos que todos llevamos años sufriendo."
 img: "lock.jpg"
 published: 2025-07-29
-modified: 2025-10-01
+modified: 2025-10-11
 minutesToRead: 2
 ---
 
@@ -17,9 +17,7 @@ Desde que abriste tu primer correo o hiciste tu primera cuenta de Club Penguin, 
 
 A lo largo del tiempo, la ciberseguridad ha mejorado enormemente. Pero los ciberdelincuentes también. Y aunque hoy existen excelentes estándares para protegerte, muchos sistemas aún no los implementan correctamente (tristemente, hay sitios que siguen permitiendo "123456" sin pestañear).
 
-En [works](https://yarso.dev), por suerte, **nos encargamos de seguir esas buenas prácticas por ti**.  
-
-Pero eso no significa que puedas ponerle "tuNombre123" a todo.
+Pero ningún estándar de seguridad es justificación para que sigas usando "tuNombre123" para todo.
 
 ---
 
@@ -211,15 +209,13 @@ La seguridad digital no es paranoia, es **sentido común en la era digital**. Tu
 
 Si te ha gustado, recuerda que tenemos otros artículos que podrían interesarte:
 
-- [¿Qué es Stripe?](/blog/que-es-stripe/)
-- [¿Dominio? ¿Por qué mi página se llama como un mueble?](/blog/que-es-un-dominio/)
-- [¿Y cómo se sube una página web? ¿Con grúa o qué?](/blog/como-se-sube-una-pagina-web/)
-- [La Web. Terreno Infinito para la Imaginación](/blog/la-web/)
-- [¿El hábitat del software?](/blog/habitat-del-software/)
+- [¿Qué es Stripe?](/que-es-stripe/)
+- [¿Dominio? ¿Por qué mi página se llama como un mueble?](/que-es-un-dominio/)
+- [¿Y cómo se sube una página web? ¿Con grúa o qué?](/como-se-sube-una-pagina-web/)
+- [La Web. Terreno Infinito para la Imaginación](/la-web/)
+- [¿El hábitat del software?](/habitat-del-software/)
 
 También puedes seguirnos en nuestras redes sociales:
 
 - [@yeremi_rrios](https://x.com/yeremi_rrios) en X
 - [@yeremi.rrios](https://www.instagram.com/yeremi.rrios/) en Instagram y en Threads
-
-**¿Necesitas ayuda con la seguridad de tu plataforma digital?** En [works](https://yarso.dev) nos especializamos en desarrollo seguro y buenas prácticas de ciberseguridad. Contáctanos para una consultoría personalizada.

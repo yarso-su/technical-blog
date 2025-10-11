@@ -1,6 +1,6 @@
 {
-  "name": "Works by yarso",
-  "short_name": "Works",
+  "name": "Blog. Yarso",
+  "short_name": "Blog",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -19,4 +19,3 @@
   "background_color": "#ffffff",
   "display": "standalone"
 }
-

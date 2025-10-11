@@ -5,7 +5,7 @@ description: '¿El nacimiento de Skynet? Bueno… no exactamente. La IA parece h
 complement: "Pero esto en realidad es más complejo (y menos aterrador) de lo que pensamos. Y definitivamente no es tan nuevo como crees."
 img: "ia.jpg"
 published: 2025-07-30
-modified: 2025-10-01
+modified: 2025-10-11
 minutesToRead: 13
 ---
 
@@ -468,21 +468,15 @@ Y si un día Skynet aparece de verdad… bueno, al menos tendrás un bot súper 
 
 ---
 
-¿Quieres integrar IA en tu negocio de manera estratégica?
-
-En [Works](https://yarso.dev) ayudamos a empresas a implementar soluciones de inteligencia artificial de forma práctica y responsable, desde automatización de procesos hasta estrategias de contenido potenciadas con IA.
-
----
-
 ## Más recursos sobre tecnología e innovación
 
 ¿Te ha resultado útil este artículo? Si quieres profundizar en las tecnologías que están transformando el mundo:
 
-- [¿Mi contraseña "messi96" no es segura?](/blog/las-contrasenas/)
-- [¿Qué es Stripe?](/blog/que-es-stripe/)
-- [¿Dominio? ¿Por qué mi página se llama como un mueble?](/blog/que-es-un-dominio/)
-- [¿Cómo se sube una página web?](/blog/como-se-sube-una-pagina-web/)
-- [La Web. Terreno Infinito para la Imaginación](/blog/la-web/)
+- [¿Mi contraseña "messi96" no es segura?](/las-contrasenas/)
+- [¿Qué es Stripe?](/que-es-stripe/)
+- [¿Dominio? ¿Por qué mi página se llama como un mueble?](/que-es-un-dominio/)
+- [¿Cómo se sube una página web?](/como-se-sube-una-pagina-web/)
+- [La Web. Terreno Infinito para la Imaginación](/la-web/)
 
 También puedes seguirnos para contenido actualizado sobre tecnología:
 

@@ -5,7 +5,7 @@ description: '¿Te has preguntado dónde "viven" las páginas web que visitas? �
 complement: '¿Y los de ese videojuego que prometes jugar solo 10 minutos pero terminas jugando 3 horas? ¿En "la nube"? ¿En un servidor? ¿En una dimensión paralela administrada por robots?'
 img: server.jpg
 published: 2025-07-18
-modified: 2025-10-01
+modified: 2025-10-11
 minutesToRead: 12
 ---
 
@@ -513,35 +513,13 @@ Tu aplicación se merece un hábitat que le permita crecer y prosperar. Y tú te
 
 ---
 
-## ¿Necesitas ayuda diseñando la infraestructura perfecta para tu proyecto?
-
-En [Works](https://yarso.dev) no solo desarrollamos aplicaciones - **diseñamos y administramos ecosistemas completos** donde tu software puede vivir, crecer y prosperar.
-
-**Nuestros servicios de infraestructura incluyen:**
-- ✅ **Arquitectura y diseño** de sistemas escalables
-- ✅ **Setup completo** de entornos dev/staging/prod
-- ✅ **CI/CD automatizado** para deployments sin estrés
-- ✅ **Monitoring 24/7** con alertas proactivas
-- ✅ **Optimización de costos** y performance
-- ✅ **Backup y disaster recovery** strategies
-- ✅ **Security hardening** y compliance
-- ✅ **Scaling automation** conforme crece tu negocio
-
-**Para que tú te enfoques en hacer crecer tu producto mientras nosotros cuidamos la infraestructura.**
-
-**[Contáctanos para una consultoría gratuita sobre infraestructura →](https://yarso.dev)**
-
----
-
 ## ¿Te resultó útil esta guía?
 
 Si este artículo te ayudó a entender mejor dónde y cómo vive el software, te recomendamos leer también:
 
-- [La Web. Terreno Infinito para la Imaginación](/blog/la-web/)
-- [¿Software? ¿Solo apps?](/blog/software/)
-- [¿Qué es Github?](/blog/que-es-github/)
-- [Acerca de nosotros](/blog/works-platform/)
-- [Lanzamiento de Works, nuestra forma de hacer las cosas](/blog/works/)
+- [La Web. Terreno Infinito para la Imaginación](/la-web/)
+- [¿Software? ¿Solo apps?](/software/)
+- [¿Qué es Github?](/que-es-github/)
 
 También puedes seguirnos en nuestras redes sociales para más contenido sobre desarrollo, infraestructura y tecnología:
 

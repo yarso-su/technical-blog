@@ -693,11 +693,11 @@ No recomendaría Linux deliberadamente a cualquier persona, pero **si tu objetiv
 
 Si este artículo te ayudó a entender mejor qué es Linux, también te recomendamos:
 
-- [¿Qué es un Sistema operativo?](/blog/que-es-un-sistema-operativo/)
-- [¿Qué es AWS?](/blog/que-es-aws/)
-- [¿Qué es el SEO?](/blog/que-es-el-seo/)
-- [¿Qué es ChatGPT?](/blog/que-es-chat-gpt/)
-- [¿Inteligencia artificial?](/blog/la-inteligencia-artificial/)
+- [¿Qué es un Sistema operativo?](/que-es-un-sistema-operativo/)
+- [¿Qué es AWS?](/que-es-aws/)
+- [¿Qué es el SEO?](/que-es-el-seo/)
+- [¿Qué es ChatGPT?](/que-es-chat-gpt/)
+- [¿Inteligencia artificial?](/la-inteligencia-artificial/)
 
 También puedes seguirnos en nuestras redes sociales para más contenido sobre tecnología explicada de manera simple:
 

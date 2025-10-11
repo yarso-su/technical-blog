@@ -5,7 +5,7 @@ description: 'Si llegaste a este post probablemente sabes lo que estás haciendo
 complement: 'Lo que sí es importante es que estás a punto de embarcarte en una aventura épica que te convertirá en el tipo de persona que responde "I use Arch, by the way" en cada conversación sobre tecnología.'
 img: "archlinux.jpg"
 published: 2025-09-22
-modified: 2025-09-22
+modified: 2025-10-11
 minutesToRead: 11
 ---
 
@@ -15,7 +15,7 @@ Arch Linux, ¿sobran explicaciones, no? Pero por si las dudas hagamos un resumen
 
 ## Arch Linux: El Sistema del "Hazlo Tú Mismo"
 
-Arch Linux es una distribución de [GNU Linux](https://yarso.dev/blog/que-es-linux/) que busca ser pragmática, simple y minimalista. Es el sistema operativo que resulta de la filosofía "Hazlo tú mismo", pero aplicada al software.
+Arch Linux es una distribución de [GNU Linux](/que-es-linux/) que busca ser pragmática, simple y minimalista. Es el sistema operativo que resulta de la filosofía "Hazlo tú mismo", pero aplicada al software.
 
 Es como comprar muebles de IKEA, pero en versión hardcore: te dan las piezas, las herramientas, un manual en sueco, y te desean suerte.
 
@@ -527,11 +527,11 @@ Una vez que reinicies y veas la pantalla de login, puedes hacer login con el usu
 
 Si este artículo te ayudó a entender mejor ArchLinux, también te recomendamos:
 
-- [¿Qué es Docker?](/blog/que-es-docker/)
-- [¿Qué es Linux?](/blog/que-es-linux/)
-- [¿Qué es un Sistema operativo?](/blog/que-es-un-sistema-operativo/)
-- [¿Qué es AWS?](/blog/que-es-aws/)
-- [¿Qué es el SEO?](/blog/que-es-el-seo/)
+- [¿Qué es Docker?](/que-es-docker/)
+- [¿Qué es Linux?](/que-es-linux/)
+- [¿Qué es un Sistema operativo?](/que-es-un-sistema-operativo/)
+- [¿Qué es AWS?](/que-es-aws/)
+- [¿Qué es el SEO?](/que-es-el-seo/)
 
 También puedes seguirnos en nuestras redes sociales para más contenido sobre tecnología explicada de manera simple:
 

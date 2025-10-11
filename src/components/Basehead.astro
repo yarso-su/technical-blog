@@ -28,7 +28,7 @@ const cover = await getImage({
 
 const canonical =
   Astro.url.pathname === '/'
-    ? 'https://yarso.dev'
+    ? 'https://es.yarso.dev'
     : new URL(Astro.url.pathname, Astro.site).href
 ---
 
@@ -76,7 +76,7 @@ const canonical =
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Works by Yarso",
-  "url": "https://yarso.dev",
+  "url": "https://es.yarso.dev",
   "description": "Agencia de software. Desarrollo de aplicaciones web, móviles y de escritorio",
   "founder": {
     "@type": "Person",
@@ -140,7 +140,7 @@ const canonical =
       "publisher": {
         "@type": "Organization",
         "name": "Works by Yarso",
-        "url": "https://yarso.dev"
+        "url": "https://es.yarso.dev"
       }
     })}>
     </script>

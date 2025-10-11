@@ -5,7 +5,7 @@ description: 'SEO. Básicamente, es el conjunto de técnicas y estrategias para 
 complement: "En otras palabras: optimizar tu sitio para que aparezca en los primeros resultados cuando alguien busque lo que ofreces. Porque seamos honestos, ¿cuándo fue la última vez que pasaste de la primera página de Google?"
 img: "seo.jpg"
 published: 2025-08-17
-modified: 2025-10-01
+modified: 2025-10-11
 minutesToRead: 9
 ---
 
@@ -251,21 +251,17 @@ El SEO es lo que le da visibilidad a tu negocio en internet. No es magia ni un t
 
 **Recuerda que el SEO es una inversión a largo plazo.** Los sitios que invierten consistentemente en SEO de calidad son los que dominan los primeros resultados años después.
 
-En [Works](https://yarso.dev) podemos ayudarte a desarrollar e implementar la estrategia SEO adecuada para tu negocio, desde la auditoría técnica hasta la creación de contenido optimizado.
-
-Si tienes alguna duda o estás interesado en llevar tu posicionamiento al siguiente nivel, contáctanos a través de nuestro formulario en [yarso.dev](https://yarso.dev).
-
 ---
 
 ## Recursos adicionales sobre SEO y marketing digital
 
 ¿Te resultó útil este artículo? Si quieres profundizar más en el mundo digital, te recomendamos estos otros recursos:
 
-- [¿Qué es ChatGPT?](/blog/que-es-chat-gpt/)
-- [¿Inteligencia artificial?](/blog/la-inteligencia-artificial/)
-- [¿Mi contraseña "messi96" no es segura?](/blog/las-contrasenas/)
-- [¿Qué es Stripe?](/blog/que-es-stripe/)
-- [¿Dominio? ¿Por qué mi página se llama como un mueble?](/blog/que-es-un-dominio/)
+- [¿Qué es ChatGPT?](/que-es-chat-gpt/)
+- [¿Inteligencia artificial?](/la-inteligencia-artificial/)
+- [¿Mi contraseña "messi96" no es segura?](/las-contrasenas/)
+- [¿Qué es Stripe?](/que-es-stripe/)
+- [¿Dominio? ¿Por qué mi página se llama como un mueble?](/que-es-un-dominio/)
 
 También puedes seguirnos en nuestras redes sociales para más contenido sobre desarrollo web y marketing digital:
 

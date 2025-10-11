@@ -11,7 +11,9 @@ import rehypeExternalLinks from 'rehype-external-links'
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://es.yarso.dev',
+  site: import.meta.env.PROD
+    ? 'https://es.yarso.dev'
+    : 'https://frontend.yarso.dev',
 
   output: 'static',
 
@@ -44,4 +46,3 @@ export default defineConfig({
     enabled: false
   }
 })
-

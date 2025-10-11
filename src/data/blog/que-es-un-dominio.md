@@ -5,7 +5,7 @@ description: 'Hiciste tu aplicación. Ya la subiste a internet, pero… ¿qué r
 complement: "¿No se suponía que iba a llamarse como tú quisieras o algo con estilo?"
 img: "website.jpg"
 published: 2025-07-21
-modified: 2025-10-01
+modified: 2025-10-11
 minutesToRead: 8
 ---
 
@@ -23,7 +23,7 @@ Así como en el mundo real dices:
 🗣️ "Voy a casa de Luis, vive en Calle del Encino 345",  
 
 En internet dirías:  
-💻 "Voy a **yarso.dev**",  
+💻 "Voy a **es.yarso.dev**",  
 
 Y el navegador automáticamente sabría cómo encontrar y llevarte al lugar correcto.
 
@@ -31,10 +31,10 @@ Y el navegador automáticamente sabría cómo encontrar y llevarte al lugar corr
 
 Un dominio completo tiene varias partes, como un nombre completo:
 
-**https​://​www.​yarso.dev**
+**https​://​es.​yarso.dev**
 
 - **https://**: El protocolo (cómo se comunica tu navegador)
-- **www**: El subdominio (opcional, como un "apartamento")  
+- **es**: El subdominio (opcional, como un "apartamento")  
 - **yarso**: El nombre del dominio (lo que tú eliges)
 - **.dev**: La extensión o TLD (el "apellido" del dominio)
 
@@ -54,7 +54,7 @@ Eso que ves al final (`.com`, `.org`, `.pizza`) se llama **TLD** (Top Level Doma
 - **`.app`**: Ideal para aplicaciones móviles y web
 
 #### **Los creativos y divertidos:**
-- **`.pizza`**: Sí, existe. Y sí, lo queremos para nuestro blog de comida
+- **`.pizza`**: Sí, existe.
 - **`.ninja`**: Para sentirte como un guerrero digital
 - **`.coffee`**: Para cafeterías o adictos al café
 - **`.design`**: Perfecto para portfolios de diseñadores
@@ -131,7 +131,7 @@ Los precios varían según la extensión:
 
 Una vez que tienes el dominio, necesitas **apuntarlo** al lugar donde vive tu página web. Esto se hace configurando los **registros DNS**.
 
-DNS significa "Domain Name System", y es como la guía telefónica de internet. Traduce nombres legibles (como `yarso.dev`) a direcciones IP que las computadoras entienden (como `104.21.45.123`).
+DNS significa "Domain Name System", y es como la guía telefónica de internet. Traduce nombres legibles (como `es.yarso.dev`) a direcciones IP que las computadoras entienden (como `104.21.45.123`).
 
 #### **Tipos de registros DNS más importantes:**
 
@@ -320,31 +320,15 @@ No lo hace mejor técnicamente, pero definitivamente:
 
 ---
 
-## ¿Necesitas ayuda con tu dominio?
-
-Si delegas la administración de tu proyecto a [Works](https://yarso.dev), nosotros nos encargamos de configurar todos los detalles técnicos por ti.
-
-Desde la compra del dominio hasta que tu sitio esté completamente en línea, te acompañamos en todo el proceso:
-
-- ✅ Selección y compra del dominio perfecto
-- ✅ Configuración completa de DNS
-- ✅ Certificados SSL automáticos
-- ✅ Configuración de email profesional
-- ✅ Optimización de rendimiento y SEO
-
-**[Contáctanos para una consultoría gratuita →](https://yarso.dev)**
-
----
-
 ## ¿Te resultó útil este artículo?
 
 Si te ha gustado esta guía, recuerda que tenemos otros artículos que podrían interesarte:
 
-- [¿Cómo se sube una página web?](/blog/como-se-sube-una-pagina-web/)
-- [La Web. Terreno Infinito para la Imaginación](/blog/la-web/)
-- [¿El hábitat del software?](/blog/habitat-del-software/)
-- [¿Software? ¿Solo apps?](/blog/software/)
-- [¿Qué es Github?](/blog/que-es-github/)
+- [¿Cómo se sube una página web?](/como-se-sube-una-pagina-web/)
+- [La Web. Terreno Infinito para la Imaginación](/la-web/)
+- [¿El hábitat del software?](/habitat-del-software/)
+- [¿Software? ¿Solo apps?](/software/)
+- [¿Qué es Github?](/que-es-github/)
 
 También puedes seguirnos en nuestras redes sociales para más contenido sobre desarrollo web y tecnología:
 

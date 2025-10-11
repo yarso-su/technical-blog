@@ -5,7 +5,7 @@ description: "La palabra software ya forma parte de la cultura popular. Y cómo 
 complement: "A veces, incluso sin darnos cuenta."
 img: "software.jpg"
 published: 2025-07-17
-modified: 2025-10-01
+modified: 2025-10-11
 minutesToRead: 2
 ---
 
@@ -62,11 +62,9 @@ Y esa obsesión, por irracional que a veces parezca, es la que nos ha llevado a 
 
 Si te ha gustado, recuerda que tenemos otros que podrían serte útiles:
 
-- [La Web. Terreno Infinito para la Imaginación](/blog/la-web/)
-- [¿El hábitat del software?](/blog/habitat-del-software/)
-- [¿Qué es Github?](/blog/que-es-github/)
-- [Acerca de nosotros](/blog/works-platform/)
-- [Lanzamiento de Works, nuestra forma de hacer las cosas](/blog/works/)
+- [La Web. Terreno Infinito para la Imaginación](/la-web/)
+- [¿El hábitat del software?](/habitat-del-software/)
+- [¿Qué es Github?](/que-es-github/)
 
 También puedes seguirnos en nuestras redes sociales:
 

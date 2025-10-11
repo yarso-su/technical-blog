@@ -5,7 +5,7 @@ description: 'ChatGPT esto, ChatGPT aquello… parece que está en boca de todos
 complement: "Si has llegado hasta aquí es porque quieres entender de una vez por todas qué es esta herramienta que tiene a medio mundo fascinado y al otro medio preocupado. Spoiler: no es tan complicado como parece."
 img: openai.jpg
 published: 2025-07-31
-modified: 2025-10-01
+modified: 2025-10-11
 minutesToRead: 11
 ---
 
@@ -359,21 +359,15 @@ La pregunta no es si deberías usar ChatGPT, sino **cómo puedes integrarlo de m
 
 ---
 
-¿Quieres implementar ChatGPT de manera estratégica en tu negocio?
-
-En [Works](https://yarso.dev) ayudamos a empresas a integrar herramientas de IA en sus procesos de manera eficiente y responsable. Desde automatización de tareas hasta estrategias de contenido potenciadas con IA.
-
----
-
 ## Más recursos sobre tecnología e innovación
 
 ¿Te resultó útil este artículo? Si quieres seguir aprendiendo sobre las tecnologías que están cambiando el mundo, te recomendamos:
 
-- [¿Inteligencia artificial?](/blog/la-inteligencia-artificial/)
-- [¿Mi contraseña "messi96" no es segura?](/blog/las-contrasenas/)
-- [¿Qué es Stripe?](/blog/que-es-stripe/)
-- [¿Dominio? ¿Por qué mi página se llama como un mueble?](/blog/que-es-un-dominio/)
-- [¿Cómo se sube una página web?](/blog/como-se-sube-una-pagina-web/)
+- [¿Inteligencia artificial?](/la-inteligencia-artificial/)
+- [¿Mi contraseña "messi96" no es segura?](/las-contrasenas/)
+- [¿Qué es Stripe?](/que-es-stripe/)
+- [¿Dominio? ¿Por qué mi página se llama como un mueble?](/que-es-un-dominio/)
+- [¿Cómo se sube una página web?](/como-se-sube-una-pagina-web/)
 
 También puedes seguirnos para más contenido sobre tecnología y desarrollo:
 

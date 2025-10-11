@@ -5,7 +5,7 @@ description: "Cuando pensamos en “la web”, solemos imaginar una pestaña abi
 complement: "Es una expresión de libertad creativa. No tiene muros, no tiene dueños, y no impone barreras que separen a quien crea de quien accede."
 img: "web.jpg"
 published: 2025-07-19
-modified: 2025-10-01
+modified: 2025-10-11
 minutesToRead: 3
 ---
 
@@ -58,21 +58,13 @@ Si tienes una idea, por abstracta o ambiciosa que parezca, la web sigue siendo e
 
 ---
 
-¿Tienes una idea en mente o necesitas orientación sobre por dónde empezar?
-
-En [yarso.dev](https://yarso.dev) estamos listos para ayudarte, ya sea para poner en marcha tu próximo proyecto o simplemente para asesorarte en las decisiones clave.
-
----
-
 ¿Te resultó interesante este artículo?
 
 Si te ha gustado, recuerda que tenemos otros que podrían serte útiles:
 
-- [¿El hábitat del software?](/blog/habitat-del-software/)
-- [¿Software? ¿Solo apps?](/blog/software/)
-- [¿Qué es Github?](/blog/que-es-github/)
-- [Acerca de nosotros](/blog/works-platform/)
-- [Lanzamiento de Works, nuestra forma de hacer las cosas](/blog/works/)
+- [¿El hábitat del software?](/habitat-del-software/)
+- [¿Software? ¿Solo apps?](/software/)
+- [¿Qué es Github?](/que-es-github/)
 
 También puedes seguirnos en nuestras redes sociales:
 
