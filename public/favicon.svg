@@ -28,7 +28,7 @@
      inkscape:document-units="px"
      showguides="true"
      inkscape:zoom="13.729334"
-     inkscape:cx="15.6599"
+     inkscape:cx="35.180148"
      inkscape:cy="24.218218"
      inkscape:window-width="1900"
      inkscape:window-height="1026"
@@ -96,17 +96,15 @@
     <text
        xml:space="preserve"
        style="font-size:31.9816px;font-family:'UbuntuMono Nerd Font';-inkscape-font-specification:'UbuntuMono Nerd Font';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:0.887183;fill:#6f1521;stroke:#2b2b2b;stroke-width:0"
-       x="4.3082185"
+       x="4.2354236"
        y="35.998268"
        id="text5"><tspan
          sodipodi:role="line"
          id="tspan5"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.9816px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';stroke-width:0"
-         x="4.3082185"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.9816px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';fill:#155dfc;fill-opacity:1;stroke-width:0"
+         x="4.2354236"
          y="35.998268"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.9816px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';fill:#000000;fill-opacity:1"
-           id="tspan7">B</tspan><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.9816px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';fill:#155dfc;fill-opacity:1"
-           id="tspan6">Y</tspan></tspan></text>
+   style="fill:#000000;fill-opacity:1"
+   id="tspan2">Y</tspan>B</tspan></text>
   </g>
 </svg>
