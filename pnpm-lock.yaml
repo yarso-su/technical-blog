@@ -23,6 +23,9 @@ importers:
       '@tailwindcss/vite':
         specifier: ^4.1.14
         version: 4.1.14(vite@6.3.6(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(yaml@2.8.1))
+      '@yarso/astro-theme-toggler':
+        specifier: ^1.0.0
+        version: 1.0.0(astro@5.14.4(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(rollup@4.52.4)(typescript@5.9.3)(yaml@2.8.1))
       astro:
         specifier: ^5.14.4
         version: 5.14.4(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(rollup@4.52.4)(typescript@5.9.3)(yaml@2.8.1)
@@ -1023,6 +1026,11 @@ packages:
 
   '@volar/typescript@2.4.23':
     resolution: {integrity: sha512-lAB5zJghWxVPqfcStmAP1ZqQacMpe90UrP5RJ3arDyrhy4aCUQqmxPPLB2PWDKugvylmO41ljK7vZ+t6INMTag==}
+
+  '@yarso/astro-theme-toggler@1.0.0':
+    resolution: {integrity: sha512-V1/Q0jydOvKXE9K7uRTzvtmq2dK5iDjPSydA8t6biSKyJmfZFm8nxSYZzBRPenPK/R/B1nVqukOE1cUBATK1cg==}
+    peerDependencies:
+      astro: ^4.0.0 || ^5.0.0
 
   acorn-walk@8.3.2:
     resolution: {integrity: sha512-cjkyv4OtNCIeqhHrfS81QWXoCBPExR/J62oyEqepVw8WaQeSqpW2uhuLPh1m9eWhDuOo/jUXVTlifvesOWp/4A==}
@@ -2973,6 +2981,10 @@ snapshots:
       '@volar/language-core': 2.4.23
       path-browserify: 1.0.1
       vscode-uri: 3.1.0
+
+  '@yarso/astro-theme-toggler@1.0.0(astro@5.14.4(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(rollup@4.52.4)(typescript@5.9.3)(yaml@2.8.1))':
+    dependencies:
+      astro: 5.14.4(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(rollup@4.52.4)(typescript@5.9.3)(yaml@2.8.1)
 
   acorn-walk@8.3.2: {}
 

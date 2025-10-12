@@ -3,6 +3,7 @@ import '@/styles/global.css'
 import type { ImageMetadata } from 'astro'
 import coverImage from '@/assets/images/cover.jpg'
 import { getImage } from 'astro:assets'
+import { LoadTheme } from '@yarso/astro-theme-toggler'
 
 export interface Props {
   title: string
@@ -116,20 +117,4 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href
 )}
 
 
-<script is:inline>
-  const theme = (() => {
-    if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
-      return localStorage.getItem('theme')
-    }
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      return 'dark'
-    }
-    return 'light'
-  })()
-
-  if (theme === 'light') {
-    document.documentElement.classList.remove('dark')
-  } else {
-    document.documentElement.classList.add('dark')
-  }
-</script>
+<LoadTheme />
