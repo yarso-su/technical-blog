@@ -46,7 +46,7 @@
 
 @layer base {
   * {
-    @apply border-zinc-300 dark:border-neutral-800 text-zinc-700 dark:text-neutral-100;
+    @apply border-zinc-300 dark:border-neutral-800 text-zinc-700 dark:text-neutral-300;
   }
 
   body {
