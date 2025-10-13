@@ -9,7 +9,6 @@ export interface Props {
   title: string
   description: string
   image?: ImageMetadata
-  noindex?: boolean
   post?: {
     title: string
     published: string
@@ -17,7 +16,7 @@ export interface Props {
   }
 }
 
-const { title, description, image, noindex = false, post } = Astro.props
+const { title, description, image, post } = Astro.props
 const imageToUse = image || coverImage
 
 const cover = await getImage({
@@ -50,7 +49,6 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
-{noindex && <meta name="robots" content="noindex, follow" />}
 
 <link rel="canonical" href={canonical} />
 <link rel="sitemap" href="/sitemap-index.xml" />

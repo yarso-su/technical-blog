@@ -1,7 +1,10 @@
 ---
+import { ThemeTogglerWrapper } from '@yarso/astro-theme-toggler'
 import Link from './Link.astro'
-import ToggleTheme from './ToggleTheme.astro'
 import LibraryBig from '@lucide/astro/icons/library-big'
+import Button from './Button.astro'
+import Sun from '@lucide/astro/icons/sun'
+import Moon from '@lucide/astro/icons/moon'
 
 interface Props {
   main?: boolean
@@ -24,7 +27,12 @@ const { main = false } = Astro.props as Props
       <span class="text-contrast">Blog</span>
     </a>
     <div class="inline-flex items-center gap-2">
-      <ToggleTheme />
+      <ThemeTogglerWrapper>
+        <Button aria-label="Alternar tema">
+          <Sun class="size-3 sm:size-4" />
+          <Moon class="size-3 sm:size-4" />
+        </Button>
+      </ThemeTogglerWrapper>
       {
         !main && (
           <Link href="/">

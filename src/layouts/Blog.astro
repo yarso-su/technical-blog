@@ -15,14 +15,20 @@ interface Props {
   }
 }
 
-const { title, description, main = false, image, post } = Astro.props as Props
-const metaTitle = `${title} - Yarso. Blog`
+const {
+  title: rawTitle,
+  description,
+  main = false,
+  image,
+  post
+} = Astro.props as Props
+const title = `${rawTitle} - Yarso. Blog`
 ---
 
 <!doctype html>
 <html lang="es">
   <head>
-    <Basehead title={metaTitle} {description} {image} {post} />
+    <Basehead {title} {description} {image} {post} />
   </head>
   <body>
     <Header main={main} />
