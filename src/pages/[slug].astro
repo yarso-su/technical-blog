@@ -73,7 +73,7 @@ const modifiedText = format(data.modified, 'YYYY-MM-DD')
         <button
           onclick="goBack()"
           aria-label="Volver al blog"
-          class="transition-colors duration-200 rounded-xs hover:bg-black/5 dark:hover:bg-white/5"
+          class="transition-colors duration-200 rounded-sm hover:bg-black/5 dark:hover:bg-white/5"
         >
           <X class="size-4 box-content p-1" />
           <span class="sr-only">Volver al blog</span>
@@ -83,7 +83,7 @@ const modifiedText = format(data.modified, 'YYYY-MM-DD')
         class="grid grid-cols-[1fr_2fr] gap-4 lg:grid-cols-[220px_1fr] items-center"
       >
         <Image
-          class="border-[1px] w-full"
+          class="border-[1px] w-full rounded-sm"
           src={image.default}
           width={350}
           height={400}

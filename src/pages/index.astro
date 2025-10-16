@@ -114,7 +114,7 @@ const pageNumbers = getPageNumbers(currentPage, lastPage)
               <a href={`/${post.id}/`} aria-label={post.title}>
                 <div class="grid grid-cols-[90px_1fr] lg:grid-cols-[120px_1fr] gap-2 items-center hover:scale-[102%] transition-transform duration-350">
                   <Image
-                    class="border-[1px] rounded-xs w-full h-auto hover:underline underline-offset-2"
+                    class="border-[1px] rounded-sm w-full h-auto hover:underline underline-offset-2"
                     src={post.image}
                     width={350}
                     height={400}
@@ -148,7 +148,7 @@ const pageNumbers = getPageNumbers(currentPage, lastPage)
             !pageNumbers.some(number => number === 1) && (
               <a
                 href="/"
-                class="rounded-xs px-4 py-2 hover:bg-black/5 dark:hover:bg-white/5 transition-colors deration-150"
+                class="rounded-sm px-4 py-2 hover:bg-black/5 dark:hover:bg-white/5 transition-colors deration-150"
               >
                 1
               </a>
@@ -162,7 +162,7 @@ const pageNumbers = getPageNumbers(currentPage, lastPage)
             pageNumbers.map(pageNum =>
               pageNum === currentPage ? (
                 <span
-                  class="px-4 py-2 bg-black/5 dark:bg-white/5 rounded-xs font-semibold"
+                  class="px-4 py-2 bg-black/5 dark:bg-white/5 rounded-sm font-semibold"
                   aria-current="page"
                 >
                   {pageNum}
@@ -170,14 +170,14 @@ const pageNumbers = getPageNumbers(currentPage, lastPage)
               ) : pageNum === 1 ? (
                 <a
                   href="/"
-                  class="px-4 py-2 rounded-xs hover:bg-black/5 dark:hover:bg-white/5  transition-colors duration-150"
+                  class="px-4 py-2 rounded-sm hover:bg-black/5 dark:hover:bg-white/5  transition-colors duration-150"
                 >
                   {pageNum}
                 </a>
               ) : (
                 <a
                   href={`/${pageNum}/`}
-                  class="px-4 py-2 rounded-xs hover:bg-black/5 dark:hover:bg-white/5 transition-colors  duration-150"
+                  class="px-4 py-2 rounded-sm hover:bg-black/5 dark:hover:bg-white/5 transition-colors  duration-150"
                 >
                   {pageNum}
                 </a>
@@ -196,7 +196,7 @@ const pageNumbers = getPageNumbers(currentPage, lastPage)
             !pageNumbers.some(pageNum => pageNum === lastPage) && (
               <a
                 href={`/${lastPage}/`}
-                class="px-4 py-2 rounded-xs hover:bg-black/5 dark:hover:bg-white/5 transition-colors duration-150"
+                class="px-4 py-2 rounded-sm hover:bg-black/5 dark:hover:bg-white/5 transition-colors duration-150"
               >
                 {lastPage}
               </a>
@@ -227,7 +227,7 @@ const pageNumbers = getPageNumbers(currentPage, lastPage)
             rel="noopener noreferrer nofollow"
             class="underline underline-offset-2 decoration-contrast hover:text-black dark:hover:text-white transition-colors duration-200"
             >yeremi.rrios</a
-          > en Instagram y en Threads
+          > en Instagram y en Threads.
         </li>
         <li>
           - <a
@@ -237,7 +237,7 @@ const pageNumbers = getPageNumbers(currentPage, lastPage)
             rel="noopener noreferrer nofollow"
             class="underline underline-offset-2 decoration-contrast hover:text-black dark:hover:text-white transition-colors duration-200"
             >yeremi_rrios</a
-          > en X (Twitter)
+          > en X (Twitter).
         </li>
         <li>
           - <a
@@ -247,7 +247,17 @@ const pageNumbers = getPageNumbers(currentPage, lastPage)
             rel="noopener noreferrer nofollow"
             class="underline underline-offset-2 decoration-contrast hover:text-black dark:hover:text-white transition-colors duration-200"
             >yarso-su</a
-          > en GitHub
+          > en GitHub.
+        </li>
+        <li lang="en" translate="no">
+          - <a
+            href="https://yarso.dev"
+            target="_blank"
+            referrerpolicy="no-referrer"
+            rel="noopener noreferrer nofollow"
+            class="underline underline-offset-2 decoration-contrast hover:text-black dark:hover:text-white transition-colors duration-200"
+            >yarso.dev</a
+          > (personal website).
         </li>
       </ul>
     </div>
