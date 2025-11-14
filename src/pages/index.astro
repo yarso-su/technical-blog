@@ -1,7 +1,12 @@
 ---
+import BlogDescription from '@/components/BlogDescription.astro'
+import Discover from '@/components/Discover.astro'
+import Intro from '@/components/Intro.astro'
 import Blog from '@/layouts/Blog.astro'
 import { Image } from 'astro:assets'
 import { getCollection } from 'astro:content'
+
+const POST_PER_PAGE = 4
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
   '/src/assets/images/*.{jpeg,jpg,png,gif,webp}'
@@ -10,7 +15,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 const rawPosts = await getCollection('blog')
 const initialPosts = rawPosts
   .sort((a, b) => b.data.published.getTime() - a.data.published.getTime())
-  .slice(0, 6)
+  .slice(0, POST_PER_PAGE)
 
 const posts = await Promise.all(
   initialPosts.map(async post => {
@@ -27,7 +32,7 @@ const posts = await Promise.all(
   })
 )
 
-const lastPage = Math.ceil(rawPosts.length / 6)
+const lastPage = Math.ceil(rawPosts.length / POST_PER_PAGE)
 const currentPage = 1
 
 function getPageNumbers(currentPage: number, lastPage: number) {
@@ -53,60 +58,13 @@ const pageNumbers = getPageNumbers(currentPage, lastPage)
 
 <Blog
   title="Artículos sobre conceptos de tecnología"
-  description="Si eres de esas personas que siempre se han preguntado cómo funcionan las cosas, tal vez puedas encontrar aquí un par de respuestas."
+  description="Si siempre te has preguntado cómo funcionan las cosas, tal vez puedas encontrar aquí un par de respuestas."
   main
 >
-  <section class="mt-4 mb-6 lg:mb-12 mx-auto 2xl:w-[60%] w-[90%]">
-    <h1 class="block">
-      <p
-        class="leading-[1.5] text-lg md:text-2xl font-semibold tracking-tight text-contrast"
-      >
-        Bienvenido a este tech-blog
-      </p>
-      <p
-        class="text-black dark:text-white leading-[1.1] text-2xl lg:text-3xl font-semibold tracking-tight"
-      >
-        Comparto conceptos, consejos y artículos sobre tecnología.
-      </p>
-    </h1>
-    <p class="text-sm sm:text-lg md:text-xl mt-4">
-      Si eres de esas personas que siempre se han preguntado cómo funcionan las
-      cosas, tal vez puedas encontrar aquí un par de respuestas o un nuevo punto
-      de vista sobre algún tema.
-    </p>
-    <p class="text-xl mt-4 hidden md:block">
-      En el mundo del software hay muchos términos y conceptos que pueden
-      resultar intimidantes cuando estás comenzando a aprender. Mi objetivo no
-      es minimizar la importancia ni la complejidad de esos conceptos, sino
-      preparar un camino que permita a las personas que están aprendiendo
-      introducirse en ellos de manera más accesible.
-    </p>
-    <p class="text-sm sm:text-lg md:hidden mt-2">
-      En el mundo del software hay muchos términos y conceptos que pueden
-      resultar intimidantes cuando estás comenzando a aprender.
-    </p>
-    <p class="text-sm sm:text-lg md:hidden mt-2">
-      Mi objetivo no es minimizar la importancia ni la complejidad de esos
-      conceptos, sino preparar un camino que permita a las personas que están
-      aprendiendo introducirse en ellos de manera más accesible.
-    </p>
-  </section>
+  <Intro />
   <section class="bg-secondary border-t-[1px]">
     <div class="mx-auto 2xl:w-[60%] w-[90%] pt-8 lg:pt-12">
-      <h2
-        class="leading-[1.1] text-xl lg:text-2xl font-semibold tracking-tight"
-      >
-        Tecnología, software, pinguinos y Skynet?
-      </h2>
-      <p class="mt-4 text-xl hidden md:block">
-        Una colección de diferentes artículos sobre temas mayormente
-        relacionados con la tecnología. La idea es intentar cubrirlos de forma
-        consistente, semana a semana.
-      </p>
-      <p class="mt-2 md:hidden text-sm sm:text-lg">
-        Una colección de diferentes artículos sobre temas mayormente
-        relacionados con la tecnología.
-      </p>
+      <BlogDescription />
       <ul class="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-5">
         {
           posts.map(post => (
@@ -206,60 +164,5 @@ const pageNumbers = getPageNumbers(currentPage, lastPage)
       </div>
     </div>
   </section>
-  <section class="bg-secondary py-6 md:py-12">
-    <div class="mx-auto 2xl:w-[60%] w-[90%]">
-      <h2
-        class="leading-[1.1] text-xl lg:text-2xl font-semibold tracking-tight"
-      >
-        Descubre más
-      </h2>
-      <p class="text-sm sm:text-lg mt-2 md:mt-4 md:text-xl">
-        Si estás interesado en el software y la tecnología en general, te invito
-        a seguirme en mis redes sociales, donde participo de forma activa como
-        alguien que disfruta de estos temas de manera más relajada y divertida.
-      </p>
-      <ul class="pl-2 text-sm sm:text-lg md:text-xl mt-4 list-none">
-        <li>
-          - <a
-            href="https://www.instagram.com/yeremi.rrios/"
-            target="_blank"
-            referrerpolicy="no-referrer"
-            rel="noopener noreferrer nofollow"
-            class="underline underline-offset-2 decoration-contrast hover:text-black dark:hover:text-white transition-colors duration-200"
-            >yeremi.rrios</a
-          > en Instagram y en Threads.
-        </li>
-        <li>
-          - <a
-            href="https://x.com/yeremi_rrios"
-            target="_blank"
-            referrerpolicy="no-referrer"
-            rel="noopener noreferrer nofollow"
-            class="underline underline-offset-2 decoration-contrast hover:text-black dark:hover:text-white transition-colors duration-200"
-            >yeremi_rrios</a
-          > en X (Twitter).
-        </li>
-        <li>
-          - <a
-            href="https://github.com/yarso-su"
-            target="_blank"
-            referrerpolicy="no-referrer"
-            rel="noopener noreferrer nofollow"
-            class="underline underline-offset-2 decoration-contrast hover:text-black dark:hover:text-white transition-colors duration-200"
-            >yarso-su</a
-          > en GitHub.
-        </li>
-        <li lang="en" translate="no">
-          - <a
-            href="https://yarso.dev"
-            target="_blank"
-            referrerpolicy="no-referrer"
-            rel="noopener noreferrer nofollow"
-            class="underline underline-offset-2 decoration-contrast hover:text-black dark:hover:text-white transition-colors duration-200"
-            >yarso.dev</a
-          > (personal website).
-        </li>
-      </ul>
-    </div>
-  </section>
+  <Discover />
 </Blog>

@@ -2,6 +2,7 @@
 import { ThemeTogglerWrapper } from '@yarso/astro-theme-toggler'
 import Link from './Link.astro'
 import LibraryBig from '@lucide/astro/icons/library-big'
+import User from '@lucide/astro/icons/user'
 import Button from './Button.astro'
 import Sun from '@lucide/astro/icons/sun'
 import Moon from '@lucide/astro/icons/moon'
@@ -33,6 +34,9 @@ const { main = false } = Astro.props as Props
           <Moon class="size-3 sm:size-4" />
         </Button>
       </ThemeTogglerWrapper>
+      <Link href="https://yarso.dev" target="_blank">
+        <User class="size-3 sm:size-4" />
+      </Link>
       {
         !main && (
           <Link href="/">

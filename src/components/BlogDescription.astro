@@ -1,0 +1,32 @@
+---
+export interface Props {
+  page?: number
+  lastPage?: number
+}
+
+const { page = 1, lastPage = 1 } = Astro.props
+---
+
+{
+  page === 1 ? (
+    <h2 class="leading-[1.1] text-xl lg:text-2xl font-semibold tracking-tight">
+      Tooling, configuración, servicios y un pinguino?
+    </h2>
+  ) : (
+    <h2 class="leading-[1.1] text-xl lg:text-2xl font-semibold tracking-tight">
+      Tooling, configuración, servicios y un pinguino?
+      <span class="text-sm lg:text-base font-semibold opacity-80">
+        ({page}/{lastPage})
+      </span>
+    </h2>
+  )
+}
+<p class="mt-2 text-xl hidden md:block">
+  Una colección de diferentes artículos sobre temas mayormente relacionados con
+  el software. No hay una regla sobre la periodicidad o el orden; publico temas
+  en función de lo que se me cruce en mi flujo de trabajo del día a día.
+</p>
+<p class="mt-2 md:hidden text-sm sm:text-lg">
+  Una colección de diferentes artículos sobre temas mayormente relacionados con
+  la tecnología.
+</p>
