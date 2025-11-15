@@ -77,17 +77,17 @@ const pageNumbers = getPageNumbers(page.currentPage, page.lastPage)
   main
 >
   <Intro currentPage={page.currentPage} />
-  <section class="bg-secondary border-t-[1px]">
+  <section class="bg-secondary border-t">
     <div class="mx-auto 2xl:w-[60%] w-[90%] pt-8 lg:pt-12">
       <BlogDescription page={page.currentPage} lastPage={page.lastPage} />
-      <ul class="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-5">
+      <ul class="mt-6 md:mt-8 grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-5">
         {
           page.data.map(post => (
             <li>
               <a href={`/${post.id}/`} aria-label={post.title}>
                 <div class="grid grid-cols-[90px_1fr] lg:grid-cols-[120px_1fr] gap-2 items-center hover:scale-[102%] transition-transform duration-350">
                   <Image
-                    class="border-[1px] rounded-sm w-full h-auto hover:underline underline-offset-2"
+                    class="border rounded-sm w-full h-auto hover:underline underline-offset-2"
                     src={post.image}
                     width={350}
                     height={400}
@@ -111,7 +111,7 @@ const pageNumbers = getPageNumbers(page.currentPage, page.lastPage)
           ))
         }
       </ul>
-      <div class="flex justify-center items-center mt-4 lg:mt-8">
+      <div class="flex justify-center items-center mt-6 lg:mt-8">
         <nav
           class="flex justify-center items-center gap-2 flex-wrap"
           aria-label="Navegación de páginas"
