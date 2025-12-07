@@ -5,7 +5,7 @@ description: 'Si llegaste a este post probablemente sabes lo que estás haciendo
 complement: 'Lo que sí es importante es que estás a punto de embarcarte en una aventura épica que te convertirá en el tipo de persona que responde "I use Arch, by the way" en cada conversación sobre tecnología.'
 img: "archlinux.jpg"
 published: 2025-09-22
-modified: 2025-10-11
+modified: 2025-12-06
 minutesToRead: 11
 ---
 
@@ -452,6 +452,12 @@ Asigna una contraseña a tu usuario:
 
 ```bash
 passwd tunombredeusuario
+```
+
+Instala el paquete `sudo`:
+
+```bash
+pacman -S sudo
 ```
 
 Habilita el uso del comando `sudo` para los usuarios del grupo `wheel`:
