@@ -470,6 +470,20 @@ Busca la línea que contenga `# %wheel ALL=(ALL:ALL) ALL` y elimina el carácter
 
 Guarda con **Ctrl + O**, **Enter**, **Ctrl + X**.
 
+#### 2.7.8 Confuguración NetworkManager (Red)
+
+Instala el paquete `networkmanager`:
+
+```bash
+pacman -S networkmanager
+```
+
+Habilita el servicio:
+
+```bash
+systemctl enable NetworkManager
+```
+
 ### 2.8 Instalación del Bootloader (GRUB)
 
 #### 2.8.1 Instalación de Paquetes
@@ -513,7 +527,35 @@ Que tu límite sea únicamente dictado por tu imaginación (y tu paciencia para 
 
 ### Primeros Pasos Post-Instalación
 
-Una vez que reinicies y veas la pantalla de login, puedes hacer login con el usuario que creaste. Algunas cosas que probablemente querrás hacer:
+Una vez que reinicies podrás hacer login con el usuario que creaste. 
+
+#### Conéctate a Internet
+
+Ejecuta:
+
+```bash
+nmcli d wifi connect "el-nombre-de-tu-wifi" --ask
+```
+
+Te pedirá tu contraseña y luego te conectará a tu red.
+
+#### Configura el audio
+
+Instala los paquetes necesarios (`pipewire`, `pipewire-pulse`, `pipewire-alsa`, `pipewire-jack`, `wireplumber`, `pavucontrol`, `alsa-utils`):
+
+```bash
+sudo pacman -S pipewire pipewire-pulse pipewire-alsa pipewire-jack wireplumber pavucontrol alsa-utils
+```
+
+Habilita los servicios como usuario normal:
+
+```bash
+systemctl --user enable --now pipewire pipewire-pulse wireplumber
+```
+
+---
+
+Algunas otras cosas que probablemente querrás hacer:
 
 1. **Instalar un entorno gráfico** (GNOME, KDE, XFCE, i3wm, etc.)
 2. **Configurar una conexión de red permanente**
