@@ -13,12 +13,12 @@
     "@astrojs/sitemap": "^3.6.0",
     "@formkit/tempo": "^0.1.2",
     "@lucide/astro": "^0.545.0",
-    "@tailwindcss/vite": "^4.1.17",
+    "@tailwindcss/vite": "^4.1.18",
     "@yarso/astro-theme-toggler": "^1.1.0",
-    "astro": "^5.16.4",
+    "astro": "^5.16.5",
     "rehype-external-links": "^3.0.0",
     "sharp": "^0.34.5",
-    "tailwindcss": "^4.1.17"
+    "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
     "@astrojs/ts-plugin": "^1.10.6",
