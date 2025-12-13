@@ -10,11 +10,11 @@ const { currentPage = 1 } = Astro.props
   <h1 class="block">
     {
       currentPage === 1 ? (
-        <p class="leading-[1.5] text-lg md:text-2xl font-semibold tracking-tight text-contrast">
+        <p class="leading-normal text-lg md:text-2xl font-semibold tracking-tight text-contrast">
           Bienvenido a este tech-blog
         </p>
       ) : (
-        <p class="leading-[1.5] text-lg md:text-2xl font-semibold tracking-tight text-contrast flex items-start gap-1">
+        <p class="leading-normal text-lg md:text-2xl font-semibold tracking-tight text-contrast flex items-start gap-1">
           Bienvenido a este tech-blog{' '}
           <span class="opacity-80 font-semibold text-sm lg:text-base text-contrast">
             {currentPage}

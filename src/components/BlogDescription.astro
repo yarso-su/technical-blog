@@ -13,10 +13,10 @@ const { page = 1, lastPage = 1 } = Astro.props
       Tooling, configuración, servicios y un pinguino?
     </h2>
   ) : (
-    <h2 class="leading-[1.1] text-xl lg:text-2xl font-semibold tracking-tight">
+    <h2 class="leading-[1.1] text-xl lg:text-2xl font-semibold tracking-tight relative">
       Tooling, configuración, servicios y un pinguino?
-      <span class="text-sm lg:text-base font-semibold opacity-80">
-        ({page}/{lastPage})
+      <span class="opacity-80 text-sm md:text-base absolute top-0 right-0">
+        {page}/{lastPage}
       </span>
     </h2>
   )

@@ -44,9 +44,7 @@ const modifiedText = format(data.modified, 'YYYY-MM-DD')
     <div>
       <div class="flex justify-between items-center mb-1 lg:mb-2">
         <div class="flex items-center gap-2 text-xs sm:text-base">
-          <time
-            class="text-contrast border-r-[1px] pr-2"
-            datetime={publishedText}
+          <time class="text-contrast border-r pr-2" datetime={publishedText}
             >{
               format({
                 date: data.published,
@@ -83,7 +81,7 @@ const modifiedText = format(data.modified, 'YYYY-MM-DD')
         class="grid grid-cols-[1fr_2fr] gap-4 lg:grid-cols-[220px_1fr] items-center"
       >
         <Image
-          class="border-[1px] w-full rounded-sm"
+          class="border w-full rounded-sm"
           src={image.default}
           width={350}
           height={400}
@@ -109,7 +107,7 @@ const modifiedText = format(data.modified, 'YYYY-MM-DD')
       <p class="md:hidden pb-2 sm:text-base text-sm mt-2">{data.complement}</p>
     </div>
   </section>
-  <section class="bg-secondary border-t-[1px]">
+  <section class="bg-secondary border-t">
     <article id="post" class="py-8 lg:py-16 mx-auto 2xl:w-[40%] w-[90%]">
       <Content />
     </article>

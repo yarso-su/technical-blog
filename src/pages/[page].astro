@@ -87,7 +87,7 @@ const pageNumbers = getPageNumbers(page.currentPage, page.lastPage)
               <a href={`/${post.id}/`} aria-label={post.title}>
                 <div class="grid grid-cols-[90px_1fr] lg:grid-cols-[120px_1fr] gap-2 items-center hover:scale-[102%] transition-transform duration-350">
                   <Image
-                    class="border rounded-sm w-full h-auto hover:underline underline-offset-2"
+                    class="border rounded-sm w-full h-auto aspect-square object-cover hover:underline underline-offset-2"
                     src={post.image}
                     width={350}
                     height={400}
