@@ -5,7 +5,7 @@ description: 'Si llegaste a este post probablemente sabes lo que estás haciendo
 complement: 'Lo que sí es importante es que estás a punto de embarcarte en una aventura épica que te convertirá en el tipo de persona que responde "I use Arch, by the way" en cada conversación sobre tecnología.'
 img: "archlinux.jpg"
 published: 2025-09-22
-modified: 2025-12-06
+modified: 2025-12-18
 minutesToRead: 11
 ---
 
@@ -363,7 +363,7 @@ hwclock --systohc
 
 Tendrás que editar el archivo `/etc/locale.gen` y descomentar los locales que necesites (para descomentar debes eliminar el carácter `#` que está al principio de la línea de interés).
 
-Puedes usar `nano` o `vim` para editar el archivo. Si no tienes experiencia con **Vim**, te recomendamos encarecidamente usar `nano`:
+Puedes usar `nano` o `vim` para editar el archivo. Si no tienes experiencia con **Vim**, te recomiendo encarecidamente usar `nano`:
 
 ```bash
 nano /etc/locale.gen
@@ -558,22 +558,22 @@ systemctl --user enable --now pipewire pipewire-pulse wireplumber
 Algunas otras cosas que probablemente querrás hacer:
 
 1. **Instalar un entorno gráfico** (GNOME, KDE, XFCE, i3wm, etc.)
-2. **Configurar una conexión de red permanente**
-3. **Instalar drivers de tu tarjeta gráfica**
-4. **Instalar un AUR helper** como `yay` o `paru`
-5. **Empezar a personalizar todo** hasta que quede exactamente como quieres
+4. **Instalar un AUR helper** (yay o paru)
+5. **Personalizar hasta el ultimo detalle**
+
+---
 
 ¡Bienvenido al club de "I use Arch BTW"! 😎
 
 ---
 
-*¿Te sirvió esta guía? ¿Lograste instalar Arch sin llorar? Si esta guía te salvó de un formatting desastroso, compártela con esos amigos que aún creen que Ubuntu es "muy avanzado".*
+*¿Te sirvió esta guía? ¿Lograste instalar Arch sin llorar? Si esta guía te salvó de un formatting desastroso, compártela con amigos!*
 
 ---
 
 ## ¿Te resultó útil esta explicación?
 
-Si este artículo te ayudó a entender mejor ArchLinux, también te recomendamos:
+Si este artículo te ayudó a entender como instalar ArchLinux, también te recomiendo:
 
 - [¿Qué es Docker?](/que-es-docker/)
 - [¿Qué es Linux?](/que-es-linux/)

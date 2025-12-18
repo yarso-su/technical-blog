@@ -5,7 +5,7 @@ description: '¿Alguna vez has tratado de explicarle a tu abuela cómo funciona 
 complement: "Bueno, Docker y los contenedores son un poco como esa magia, pero para desarrolladores."
 img: "docker.jpg"
 published: 2025-09-18
-modified: 2025-10-11
+modified: 2025-12-18
 minutesToRead: 9
 ---
 
@@ -307,7 +307,7 @@ Y lo mejor de todo: una vez que lo pruebas, te preguntarás cómo diablos vivía
 
 ## ¿Te resultó útil esta explicación?
 
-Si este artículo te ayudó a entender mejor qué son los contenedores, también te recomendamos:
+Si este artículo te ayudó a entender mejor qué son los contenedores, también te recomiendo:
 
 - [¿Qué es Linux?](/que-es-linux/)
 - [¿Qué es un Sistema operativo?](/que-es-un-sistema-operativo/)

@@ -5,7 +5,7 @@ description: "Las contraseñas existen casi desde que internet es internet. La i
 complement: "Y así nació esta pesadilla de letras, números y símbolos que todos llevamos años sufriendo."
 img: "lock.jpg"
 published: 2025-07-29
-modified: 2025-10-11
+modified: 2025-12-18
 minutesToRead: 2
 ---
 
@@ -99,7 +99,7 @@ Usar la misma contraseña para múltiples cuentas es como tener una llave maestr
 
 ### Generadores de contraseñas confiables
 
-Nuestra recomendación principal:  
+Mi recomendación principal:  
 👉 [Avast Password Generator](https://www.avast.com/random-password-generator)
 
 Otras opciones confiables:
@@ -111,7 +111,7 @@ Con estas herramientas puedes crear contraseñas con:
 ✅ Mayúsculas y minúsculas  
 ✅ Números aleatorios  
 ✅ Símbolos especiales  
-✅ Longitud personalizable (recomendamos 16+ caracteres)  
+✅ Longitud personalizable (te recomiendo 16+ caracteres)  
 ✅ Sin patrones predecibles
 
 ¿Parece excesivo? Tal vez. ¿Es exagerado? Posiblemente. ¿Es absolutamente necesario? **Sin duda alguna.**
@@ -207,7 +207,7 @@ La seguridad digital no es paranoia, es **sentido común en la era digital**. Tu
 
 ## ¿Te resultó útil este artículo?
 
-Si te ha gustado, recuerda que tenemos otros artículos que podrían interesarte:
+Si te ha gustado, recuerda que tengo otros artículos que podrían interesarte:
 
 - [¿Qué es Stripe?](/que-es-stripe/)
 - [¿Dominio? ¿Por qué mi página se llama como un mueble?](/que-es-un-dominio/)
@@ -215,7 +215,7 @@ Si te ha gustado, recuerda que tenemos otros artículos que podrían interesarte
 - [La Web. Terreno Infinito para la Imaginación](/la-web/)
 - [¿El hábitat del software?](/habitat-del-software/)
 
-También puedes seguirnos en nuestras redes sociales:
+También puedes seguirme en mis redes sociales:
 
 - [@yeremi_rrios](https://x.com/yeremi_rrios) en X
 - [@yeremi.rrios](https://www.instagram.com/yeremi.rrios/) en Instagram y en Threads

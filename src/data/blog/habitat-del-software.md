@@ -5,7 +5,7 @@ description: '¿Te has preguntado dónde "viven" las páginas web que visitas? �
 complement: '¿Y los de ese videojuego que prometes jugar solo 10 minutos pero terminas jugando 3 horas? ¿En "la nube"? ¿En un servidor? ¿En una dimensión paralela administrada por robots?'
 img: server.jpg
 published: 2025-07-18
-modified: 2025-10-11
+modified: 2025-12-18
 minutesToRead: 12
 ---
 
@@ -515,7 +515,7 @@ Tu aplicación se merece un hábitat que le permita crecer y prosperar. Y tú te
 
 ## ¿Te resultó útil esta guía?
 
-Si este artículo te ayudó a entender mejor dónde y cómo vive el software, te recomendamos leer también:
+Si este artículo te ayudó a entender mejor dónde y cómo vive el software, te recomiendo leer también:
 
 - [La Web. Terreno Infinito para la Imaginación](/la-web/)
 - [¿Software? ¿Solo apps?](/software/)
